@@ -47,8 +47,7 @@
         // 실제로는 서버 측에서 비밀번호를 확인하는 것이 안전합니다.
         if (passwordInput === 'BIESL') {
             // 비밀번호가 정확한 경우
-            document.getElementById('passwordPage').style.display = 'none';
-            document.getElementById('successPage').style.display = 'block';
+            window.location.href = 'https://www.jeongresearch.org/';
         } else {
             // 비밀번호가 틀린 경우
             alert('비밀번호가 틀렸습니다. 다시 시도하세요.');
